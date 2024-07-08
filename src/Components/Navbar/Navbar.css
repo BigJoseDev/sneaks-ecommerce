@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    /* box-shadow: 0 1px 3px -2px black; */
+    width: 1240px;
+    height: 50px;
+    margin-top: 44px;
+    margin-left: 100px;
+    gap: 259px;
+}
+
+.nav-logo{
+    width: 142px;
+    /* height: 50px; */
+    font-family: Racing Sans One;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 0px;
+    color: #000000;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    width: 444px;
+    height: 64px;
+}
+
+.nav-menu li{
+    /* width: 108px; */
+    /* height: 24px; */
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 1%;
+    color: #000000;
+}
+
+.nav-profile-cart {
+    display: flex;
+    gap: 32px;
+    width: 24px;
+    width: 136px;
+    margin-top: 40px;
+}
+
+.nav-profile-cart img{
+    width: 24px;
+    height: 24px;
+}
+
+

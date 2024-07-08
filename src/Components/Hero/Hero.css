@@ -1,0 +1,60 @@
+.hero{
+    display: flex;
+    width: 1240px;
+    height: 497px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.left-hero{
+    width: 666px;
+    height: 422px;
+    top: 301px;
+    left: 100px;
+}
+
+.left-hero h1{
+    width: 666px;
+    height: 168px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80.45px;
+    color: #000000;
+    
+}
+
+.left-hero p{
+    width: 645px;
+    font-family: Inter;
+    height: 96px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 1%;
+    color: #000000;
+}
+
+.left-hero button{
+    width: 251px;
+    height: 86px;
+    margin-top: 24px;
+    margin-left: 35px;
+    font: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    /* line-height: 38.73px; */
+    /* letter-spacing: 1%; */
+    color: #FFFFFF;
+    background-color: #FFAE5A;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.right-hero{
+   width: 559px;
+   height: 497px;
+   top: 263px;
+   margin-left: 100px;
+}

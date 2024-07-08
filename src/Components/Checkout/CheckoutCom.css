@@ -1,0 +1,65 @@
+.CheckoutCom{
+    width: 1240px;
+    height: 675px;
+    margin-top: 174px;
+    margin-left: 100px;
+    gap: 54px;
+    border: 2px solid #FFAE5A;
+}
+
+
+
+.info-summary{
+    width: 1240px;
+    height: 582px;
+    gap: 130px;
+    border: 2px solid #FFAE5A;
+}
+
+.left-info{
+    width: 721px;
+    height: 582px;
+    gap: 48px;
+    border: 2px solid #FFAE5A;
+}
+
+.info-payment{
+    width: 712px;
+    height: 469px;
+    border-radius: 10px;
+    gap:44px;
+    border: 2px solid #FFAE5A;
+}
+
+.first-form{
+    width: 712px;
+    height: 73px;
+    gap: 12px;
+}
+
+.address-form{
+    width: 712px;
+    height: 139px;
+    gap: 12px;
+}
+
+.payment{
+    width: 712px;
+    height: 169px;
+    gap: 21px;
+    display: flex;
+    
+}
+
+.payment img{
+    width: 70px;
+    height: 30px;
+    
+}
+
+.payment-options{
+    width: 712px;
+    height: 54px;
+    gap: 24px;
+    
+}

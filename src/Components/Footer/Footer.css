@@ -1,0 +1,131 @@
+.footer{
+    /* border : 1px solid #000; */
+    width: 100%px;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* height: 460px; */
+    padding: 60px 20px;
+    /* margin-left: 10px; */
+
+}
+
+.footer-logo{
+    width: 142px;
+    height: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    gap: 32px;
+}
+
+.footer-logo h1{
+    font-family: 'Racing Sans One';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50.4px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* width: 1239px; */
+    height: 196px;
+    margin-top: 40px;
+    /* margin-left: 101px; */
+    gap: 50px;
+    /* border: 2px solid #000; */
+    
+    /* padding: 0 20px; */
+   
+}
+.links-title{
+    width: 112px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-bottom: 20px;
+}
+.links-items{
+    list-style: none;
+    width: 86px;
+    height: 148px;
+    gap: 24px;
+    
+}
+
+.links-items li{
+    margin-bottom: 10px;
+    font-family: 'Inter' sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.footer-about{
+    /* flex: 1; */
+    min-width: 200px;
+}
+
+.socials{
+    flex: 1;
+    min-width: 200px;
+}
+
+.socials h3{
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img{
+    width: 24px;
+    height: 24px;
+}
+
+.news.letter{
+    /* flex: 1; */
+    min-width: 200px;
+}
+
+.news-letter h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news-letter p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.news-letter input {
+    /* width: calc(100% - 110px); */
+    width: 445px;
+    height: 48px;
+    padding: 10px;
+    border: 1px solid #FFAE5A;
+    background-color: #FFF9EB;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.news-letter button {
+    padding: 10px 20px;
+    position: relative;
+    right: 150px;
+    background-color: #FFAE5A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

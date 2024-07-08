@@ -1,0 +1,14 @@
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    width: 1240px;
+    height: auto;
+    margin-left: 150px;
+    padding: 15px;
+    /* margin-right: 100px; */
+    margin-top: 196px;
+    gap: 80px;
+
+}
