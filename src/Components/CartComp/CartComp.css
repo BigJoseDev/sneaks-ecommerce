@@ -167,7 +167,8 @@
         align-items: center;
         max-width: 366px;
         padding: 10px;
-        margin: 10px -10px;
+        margin: 10px  ;
+        
         gap: 20px;
         height: 2px;
     }
@@ -175,6 +176,7 @@
     .left-cart-items {
         width: 366px;
         gap: 20px;
+        margin-right: 10px;
     }
 
     .left-cart {
@@ -182,6 +184,8 @@
         flex-direction: row;
         align-items: center;
         padding: 10px;
+      
+        
     }
 
     .cart-image img {
