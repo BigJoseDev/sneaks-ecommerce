@@ -100,7 +100,10 @@
     }
 
     .nav-profile-cart {
-      display: ;
+      /* display: ; */
+      position: relative;
+      top: -55px;
+      left: 230px;
         gap: 32px;
         width: 24px;
         /* width: 136px; */

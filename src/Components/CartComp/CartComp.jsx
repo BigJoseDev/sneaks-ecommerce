@@ -79,8 +79,12 @@ const CartComp = () => {
         <div className="checkout">
          <Link to = '/checkout'> <button>CHECKOUT</button></Link>
         </div>
+        
       </div>
+
+      <button className="clearbtn">Clear Cart</button>
     </div>
+    
   );
 };
 

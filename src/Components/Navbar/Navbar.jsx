@@ -6,7 +6,7 @@ import user from '../../assets/images/user.png';
 import cart from '../../assets/images/cart.png';
 
 const Navbar = () => {
-  const [menu, setMenu] = useState('home');
+  const [menu, setMenu] = useState('');
 
   const menuStyle = {
     color: '#FFAE5A'
@@ -27,24 +27,18 @@ const Navbar = () => {
       <div className="nav-menu">
         <ul>
         <li 
-          onClick={() => setMenu('home')} 
-          style={menu === 'home' ? menuStyle : {}}
-        ><Link to = '/' style={linkStyle}>Home</Link>
+          >Home
         </li>
         <li 
           onClick={() => setMenu('products')} 
           style={menu === 'products' ? menuStyle : {}}
-        ><Link to = '/products' style={linkStyle}>Products</Link>
+        ><Link to = '/' style={linkStyle}>Products</Link>
         </li>
         <li 
-          onClick={() => setMenu('about')} 
-          style={menu === 'about' ? menuStyle : {}}
-        ><Link to = '/about'  style={linkStyle}>About</Link>
+          >About
         </li>
         <li 
-          onClick={() => setMenu('contact')} 
-          style={menu === 'contact' ? menuStyle : {}}
-        ><Link to = '/contact'  style={linkStyle}>Contact Us </Link>
+          >Contact Us 
         </li>
       </ul>
       </div>
@@ -52,8 +46,13 @@ const Navbar = () => {
       <div className="nav-profile-cart">
         <img src={search} alt="" />
         <img src={user} alt="" />
-        <Link to="/cart">
-          <img src={cart} alt="cart" />
+        <Link to="/cart" style={linkStyle}>
+            <img 
+                src={cart} 
+                alt="cart"
+                onClick={() => setMenu('cart')} 
+                style={menu === 'cart' ? menuStyle : {}}
+            />
         </Link>
         
       </div>

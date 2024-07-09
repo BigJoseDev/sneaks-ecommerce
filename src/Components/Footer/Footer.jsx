@@ -17,9 +17,11 @@ const Footer = () => {
         <h1>SNEAKS</h1>
       </div>
       <div className="footer-links">
-        <div>
-          <h3 className="links-title">Quick Links</h3>
-          <ul className="links-items">
+
+
+        <div className="quick-links">
+          <h2 className="quick-links-title">Quick Links</h2>
+          <ul className="quick-links-items">
            <Link to ='/' style={linkStyle}> <li>  Home</li> </Link>
            <Link to ='/products' style={linkStyle}> <li>Products</li> </Link>
            <Link to ='/about' style={linkStyle}> <li>About</li> </Link>
@@ -28,8 +30,8 @@ const Footer = () => {
         </div>
 
         <div className="footer-about">
-            <h3 className="links-title">About</h3>
-            <ul className="links-items">
+            <h2 className="links-title">About</h2>
+            <ul className="about-links-items">
               <li>FAQS</li>
               <li>Blog</li>
               <li>Careers</li>
@@ -37,9 +39,9 @@ const Footer = () => {
             </ul>
         </div>
         <div className="socials">
-          <h3>Social Media</h3>
+          <h2>Social Media</h2>
           <p>
-            Follow us on social media to find out the latest <br/> updates on our
+            Follow us on social media to find out the latest updates on our
             progress
           </p>
           <div className="social-icons">
@@ -49,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="news-letter">
-          <h3>Newsletter</h3>
+          <h2>Newsletter</h2>
           <p>Subscribe for latest updates</p>
           <input type="text" placeholder="Your email" />
           <button>Subscribe</button>

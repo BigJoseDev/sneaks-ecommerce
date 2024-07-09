@@ -155,9 +155,9 @@
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
     .CheckoutCom {
-        max-width:366px;
+        width:366px;
         height: 300px;
-        margin: 20px 10px;
+        margin: 20px -10px;
         padding: 10px;
         gap: 20px;
     }
@@ -184,7 +184,7 @@
     .address,
     .payment {
         padding: 10px;
-     gap: 32px;
+        gap: 32px;
     }
 
     .personal-info-form,
@@ -193,12 +193,13 @@
         flex-direction: column;
         gap: 10px;
         height: 42px;
+        width: 366px;
         /* padding: 10px; */
     }
 
     .input-field,
     .country {
-        width: 366px;
+        width: 330px;
         height: 42px;
         gap: 18px;
         padding: 15px;
@@ -242,11 +243,14 @@
     }
 
     .summary-right-cart {
-        width: 366px;
+        width: 340px;
         height: 600;
         padding: 24px;
         border-radius: 10px;
         gap: 10px;
         margin-top: 70px;
+    }
+    .checkout-heading h1{
+        display: none;
     }
 }

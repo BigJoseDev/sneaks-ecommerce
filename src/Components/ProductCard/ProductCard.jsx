@@ -1,12 +1,15 @@
 import "../ProductCard/ProductCard.css";
 import cart from "../../assets/images/cart.png";
 // import carts from "../../assets/images/carts.svg";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
       <div className="cart-icon">
-        <img src={cart} alt="" />
+      <Link to="/cart">
+          <img src={cart} alt="cart" />
+        </Link>
       </div>
       <div className="product-image">
         <img src={product.image} alt={product.name}/>
