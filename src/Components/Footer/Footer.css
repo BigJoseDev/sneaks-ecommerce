@@ -191,7 +191,7 @@
 /* mobile screen */
 @media screen and (max-width: 768px) {
     .footer {
-        width: 498px;
+        width: 519px;
         height: 524px;
         position: relative;
 
@@ -208,7 +208,7 @@
         font-size: 20px;
         font-weight: 400;
         position: relative;
-        top: -30px;
+        top: -5px;
         left: 140px;
         /* text-align: center; */
     }
@@ -254,6 +254,12 @@
 
     .quick-links-items li{
         width: 85px;
+        height: 25px;
+        gap: 12px;
+    }
+
+    .footer-about li{
+        width: 105px;
         height: 19px;
         gap: 12px;
     }
@@ -287,13 +293,14 @@
         margin-left: ;
     } */
 
-    .social-icons {
+    .social-icons img {
         /* justify-content: center; */
         width: 112px;
         height: 32px;
         gap: 8px;
         position: relative;
-        top: 30px;
+        top: 8px;
+        left: -10px;
     }
 
     .news-letter input {
@@ -302,7 +309,7 @@
         margin-bottom: 10px;
         border: none;
         background-color: #fff;
-        padding: 4px;
+        padding: 7px;
 
     }
 
@@ -349,8 +356,8 @@
 
          }
          .socials p{
-            width: 124px;
-            height: 40px;
+            width: 140px;
+            height: 45px;
             font-size: 13px;
             line-height: 20px;
             font-weight: 400;

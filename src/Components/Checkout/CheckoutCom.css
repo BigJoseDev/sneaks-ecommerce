@@ -238,17 +238,19 @@
         height: 66px;
         border-radius: 10px;
         position: relative;
-        top: 450px;
+        top: 460px;
         left: 32px;
     }
 
     .summary-right-cart {
-        width: 340px;
+        width: 366px;
         height: 600;
         padding: 24px;
         border-radius: 10px;
         gap: 10px;
-        margin-top: 70px;
+        position: relative;
+        top: 80px;
+        
     }
     .checkout-heading h1{
         display: none;

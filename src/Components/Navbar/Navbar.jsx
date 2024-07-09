@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <h1>SNEAKS</h1>
+        <Link to = '/' style={linkStyle}><h1>SNEAKS</h1></Link>
       </div>
 
       <div className="nav-menu">

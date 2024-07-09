@@ -23,9 +23,9 @@ const Footer = () => {
           <h2 className="quick-links-title">Quick Links</h2>
           <ul className="quick-links-items">
            <Link to ='/' style={linkStyle}> <li>  Home</li> </Link>
-           <Link to ='/products' style={linkStyle}> <li>Products</li> </Link>
-           <Link to ='/about' style={linkStyle}> <li>About</li> </Link>
-           <Link to ='/contact' style={linkStyle}> <li>Contact Us</li> </Link>
+           <Link to ='/' style={linkStyle}> <li>Products</li> </Link>
+           <Link to ='/' style={linkStyle}> <li>About</li> </Link>
+           <Link to ='/' style={linkStyle}> <li>Contact Us</li> </Link>
           </ul>
         </div>
 
