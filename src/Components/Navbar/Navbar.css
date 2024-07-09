@@ -100,7 +100,7 @@
     }
 
     .nav-profile-cart {
-        display: none;
+        display: flex;
 
         gap: 32px;
         width: 24px;
