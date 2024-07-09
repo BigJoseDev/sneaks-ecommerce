@@ -18,6 +18,7 @@ const Hero = () => {
           you. we've got your feet covered with our diverse selection of
           footwear, designed to keep you looking great all day long.
         </p>
+        
         <Link to = '/products' style={linkStyle}> <button>SHOP NOW</button></Link>
       </div>
       <div className="right-hero">

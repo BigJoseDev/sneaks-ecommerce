@@ -1,13 +1,16 @@
 import '../ProductList/ProductList.css'
-import yeezy from '../../assets/images/yeezy.png'
-import addidas from '../../assets/images/addidas.png'
-import airjordan from '../../assets/images/airjordan.png'
-import airmax from '../../assets/images/airmax.png'
-import allstars from '../../assets/images/allstars.png'
-import balenciaga from '../../assets/images/balenciaga.png'
-import fila from '../../assets/images/fila.png'
-import newbalance from '../../assets/images/newbalance.png'
-import sketchers from '../../assets/images/sketchers.png'
+
+import yeezy2 from '../../assets/images/yeezy2.png'
+import adidas2 from '../../assets/images/adidas2.png'
+import airjordan2 from '../../assets/images/airjordan2.png'
+import airmax2 from '../../assets/images/airmax2.png'
+import allstars2 from '../../assets/images/allstars2.png'
+
+import balenciaga2 from '../../assets/images/balenciaga2.png'
+import fila2 from '../../assets/images/fila2.png'
+import newbalance2 from '../../assets/images/newbalance2.png'
+import sketchers2 from '../../assets/images/sketchers2.png'
+
 import ProductCard from '../ProductCard/ProductCard'
 
 
@@ -16,63 +19,63 @@ const products = [
         id: 1,
         name: 'YEEZY BOOST',
         price: '$240',
-        image: yeezy,
+        image: yeezy2,
     },
 
     {
         id: 2,
         name: 'SKETCHERS',
         price: '$140',
-        image: sketchers,
+        image: sketchers2,
     },
 
     {
         id: 3,
         name: 'NIKE AIR MAX',
         price: '$370',
-        image: airmax,
+        image: airmax2,
     },
 
     {
         id: 4,
         name: 'BALENCIAGA',
         price: '$280',
-        image: balenciaga,
+        image: balenciaga2,
     },
 
     {
         id: 5,
         name: 'FILA',
         price: '$220',
-        image: fila,
+        image: fila2,
     },
 
     {
         id: 6,
         name: 'NIKE AIR JORDAN',
         price: '$340',
-        image: airjordan,
+        image: airjordan2,
     },
 
     {
         id: 7,
         name: 'NEW BALANCE',
         price: '$200',
-        image: newbalance,
+        image: newbalance2,
     },
 
     {
         id: 8,
         name: 'ADDIDAS',
         price: '$120',
-        image: addidas,
+        image: adidas2,
     },
     
     {
         id: 9,
         name: 'ALL STARS',
         price: '$100',
-        image: allstars,
+        image: allstars2,
     },
     
 

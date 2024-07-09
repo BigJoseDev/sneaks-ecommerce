@@ -37,7 +37,7 @@ const CartComp = () => {
 
         <div className="name-price">
           <div className="cart-details">
-            <h1>NIKE AIR MAX</h1>
+            <h1>ADDIDAS</h1>
             <div className="btn">
               <button>-</button>
               <p>1</p>
@@ -46,7 +46,7 @@ const CartComp = () => {
           </div>
 
           <div className="cart-price">
-            <h1>$370</h1>
+            <h1>$120</h1>
             <img src={trash} alt="" />
           </div>
         </div>
@@ -65,7 +65,7 @@ const CartComp = () => {
           </div>
           <div className="sub-total">
             <p>Estimated Shipping</p>
-            <p>$490</p>
+            <p>$8.00</p>
           </div>
           <div className="sub-total">
             <p>Estimated Tax</p>

@@ -1,65 +1,252 @@
-.CheckoutCom{
+/* Import styles if needed */
+/* import "../Checkout/CheckoutCom.css"; */
+
+/* Base styles for desktop */
+.CheckoutCom {
     width: 1240px;
     height: 675px;
     margin-top: 174px;
     margin-left: 100px;
     gap: 54px;
-    border: 2px solid #FFAE5A;
 }
 
-
-
-.info-summary{
+.info-summary {
     width: 1240px;
     height: 582px;
     gap: 130px;
-    border: 2px solid #FFAE5A;
+    display: flex;
 }
 
-.left-info{
+.left-info {
     width: 721px;
     height: 582px;
     gap: 48px;
-    border: 2px solid #FFAE5A;
 }
 
-.info-payment{
+.info-payment {
     width: 712px;
     height: 469px;
     border-radius: 10px;
-    gap:44px;
-    border: 2px solid #FFAE5A;
+    gap: 44px;
 }
 
-.first-form{
+.personal-info {
     width: 712px;
     height: 73px;
     gap: 12px;
 }
 
-.address-form{
+.personal-info-form {
+    width: 712px;
+    height: 42px;
+    gap: 20px;
+    display: flex;
+}
+
+.input-field {
+    width: 387px;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F6F0E2;
+}
+
+.address {
     width: 712px;
     height: 139px;
     gap: 12px;
 }
 
-.payment{
+.address-form {
+    width: 712px;
+    height: 42px;
+    gap: 20px;
+    display: flex;
+}
+
+.country-form {
+    width: 712px;
+    height: 42px;
+    gap: 26px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.country {
+    width: 220px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #F6F0E2;
+    border: none;
+}
+
+.payment {
     width: 712px;
     height: 169px;
     gap: 21px;
-    display: flex;
-    
+    margin-top: 40px;
 }
 
-.payment img{
-    width: 70px;
-    height: 30px;
-    
-}
-
-.payment-options{
+.paypal {
     width: 712px;
     height: 54px;
     gap: 24px;
-    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input-label {
+    width: 91px;
+    height: 24px;
+    gap: 12px;
+}
+
+.paypal img {
+    width: 70px;
+    height: 30px;
+}
+
+.credit-debit {
+    width: 712px;
+    height: 54px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.visa-master {
+    width: 151px;
+    height: 30px;
+    display: flex;
+}
+
+.visa-master img {
+    width: 70px;
+    height: 30px;
+}
+
+.paynow button {
+    width: 350px;
+    height: 66px;
+    border-radius: 10px;
+    background-color: #FFAE5A;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.summary-right-cart {
+    width: 398px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 24px;
+    gap: 24px;
+    background-color: #F6F0E2;
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 768px) {
+    .CheckoutCom {
+        width: 1240px;
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .info-summary {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-info {
+        width: 100%;
+        gap: 20px;
+        
+    }
+
+    .info-payment {
+        width: 366px;
+        /* height: 544px; */
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .personal-info,
+    .address,
+    .payment {
+        padding: 10px;
+     gap: 32px;
+    }
+
+    .personal-info-form,
+    .address-form,
+    .country-form {
+        flex-direction: column;
+        gap: 10px;
+        height: 42px;
+        /* padding: 10px; */
+    }
+
+    .input-field,
+    .country {
+        width: 366px;
+        height: 42px;
+        gap: 18px;
+        padding: 15px;
+    }
+
+    .address{
+        margin-top: 60px;
+    }
+
+    .payment{
+        margin-top: 120px;
+    }
+
+
+
+    .paypal,
+    .credit-debit {
+        width: 366px;
+        height: 36px;
+        /* display: flex; */
+        /* flex-direction: column; */
+        gap: 12px;
+    }
+
+    .paypal img,
+    .visa-master img {
+        width: 49px;
+        height: 21px;
+        margin-right: 10%;
+        margin-left: 10px;
+        
+    }
+
+    .paynow button {
+        width: 318px;
+        height: 66px;
+        border-radius: 10px;
+        position: relative;
+        top: 450px;
+        left: 32px;
+    }
+
+    .summary-right-cart {
+        width: 366px;
+        height: 600;
+        padding: 24px;
+        border-radius: 10px;
+        gap: 10px;
+        margin-top: 70px;
+    }
 }

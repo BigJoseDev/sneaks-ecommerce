@@ -2,8 +2,15 @@ import "../Footer/Footer.css";
 import Facebook from "../../assets/images/Facebook.png";
 import Twitter from "../../assets/images/Twitter.png";
 import instagram from "../../assets/images/instagram.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+    
+        const linkStyle = {
+            textDecoration: 'none',
+            color: 'inherit'
+        }
   return (
     <div className="footer">
       <div className="footer-logo">
@@ -13,10 +20,10 @@ const Footer = () => {
         <div>
           <h3 className="links-title">Quick Links</h3>
           <ul className="links-items">
-            <li>Home</li>
-            <li>Products</li>
-            <li>About</li>
-            <li>Contact Us</li>
+           <Link to ='/' style={linkStyle}> <li>  Home</li> </Link>
+           <Link to ='/products' style={linkStyle}> <li>Products</li> </Link>
+           <Link to ='/about' style={linkStyle}> <li>About</li> </Link>
+           <Link to ='/contact' style={linkStyle}> <li>Contact Us</li> </Link>
           </ul>
         </div>
 
@@ -32,7 +39,7 @@ const Footer = () => {
         <div className="socials">
           <h3>Social Media</h3>
           <p>
-            Follow us on social media to find out the latest updates on our
+            Follow us on social media to find out the latest <br/> updates on our
             progress
           </p>
           <div className="social-icons">

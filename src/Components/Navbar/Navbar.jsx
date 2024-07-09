@@ -24,7 +24,8 @@ const Navbar = () => {
         <h1>SNEAKS</h1>
       </div>
 
-      <ul className="nav-menu">
+      <div className="nav-menu">
+        <ul>
         <li 
           onClick={() => setMenu('home')} 
           style={menu === 'home' ? menuStyle : {}}
@@ -46,6 +47,7 @@ const Navbar = () => {
         ><Link to = '/contact'  style={linkStyle}>Contact Us </Link>
         </li>
       </ul>
+      </div>
 
       <div className="nav-profile-cart">
         <img src={search} alt="" />

@@ -4,32 +4,35 @@
     /* box-shadow: 0 1px 3px -2px black; */
     width: 1240px;
     height: 50px;
-    margin-top: 44px;
+    margin-top: 64px;
     margin-left: 100px;
-    gap: 259px;
+    gap: 255px;
+    line-height: 2.3px;
+    /* border: 2px solid #000; */
 }
 
-.nav-logo{
+.nav-logo h1{
     width: 142px;
-    /* height: 50px; */
+    
     font-family: Racing Sans One;
     font-weight: 400;
     font-size: 40px;
-    line-height: 0px;
+    
     color: #000000;
+    /* border: 2px solid #000; */
 }
-.nav-menu{
+.nav-menu ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 48px;
-    width: 444px;
-    height: 64px;
+    gap: 47px;
+    /* width: 452px; */
+    /* height: 84px; */
 }
 
 .nav-menu li{
-    /* width: 108px; */
-    /* height: 24px; */
+    width: 108px;
+    height: 24px;
     font-family: inter;
     font-weight: 400;
     font-size: 20px;
@@ -41,14 +44,74 @@
 .nav-profile-cart {
     display: flex;
     gap: 32px;
-    width: 24px;
+    height: 24px;
     width: 136px;
-    margin-top: 40px;
+    margin-top: 15px;
+    /* border: 2px solid #000; */
 }
 
 .nav-profile-cart img{
     width: 24px;
-    height: 24px;
+    /* height: 24px; */
 }
 
+
+/* mobile screen */
+@media (max-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50px;
+        margin-top: 44px;
+        margin-left: 0px;
+        gap: 20px;
+    }
+
+    .nav-logo{
+        width: 142px;
+        font-family: Racing Sans One;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 0px;
+        color: #000000;
+        margin-left: 20px;
+    }
+
+    .nav-menu{
+        display: none;
+        list-style: none;
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: 64px;
+    }
+
+    .nav-menu li{
+        display: none;
+        font-family: inter;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.2px;
+        letter-spacing: 1%;
+        color: #000000;
+    }
+
+    .nav-profile-cart {
+        display: none;
+
+        gap: 32px;
+        width: 24px;
+        width: 136px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .nav-profile-cart img{
+        width: 24px;
+        height: 24px;
+    }
+}
 
