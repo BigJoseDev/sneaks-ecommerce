@@ -1,8 +1,9 @@
 .footer {
     /* border : 1px solid #000; */
-    width: 1675px;
+    width: 1650px;
     height: 460px;
     margin-top: 220px;
+    margin-left: 5px;
 
   
     background-color: #F6F0E2;
