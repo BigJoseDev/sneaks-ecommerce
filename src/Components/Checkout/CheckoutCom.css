@@ -3,7 +3,7 @@
 
 /* Base styles for desktop */
 .CheckoutCom {
-    width: 1240px;
+    max-width: 366px;
     height: 675px;
     margin-top: 174px;
     margin-left: 100px;
@@ -11,7 +11,7 @@
 }
 
 .info-summary {
-    width: 1240px;
+    max-width: 366px;
     height: 582px;
     gap: 130px;
     display: flex;
@@ -31,7 +31,7 @@
 }
 
 .personal-info {
-    width: 712px;
+    width: 366px;
     height: 73px;
     gap: 12px;
 }
@@ -52,7 +52,7 @@
 }
 
 .address {
-    width: 712px;
+    max-width: 366px;
     height: 139px;
     gap: 12px;
 }
@@ -81,7 +81,7 @@
 }
 
 .payment {
-    width: 712px;
+    max-width: 366px;
     height: 169px;
     gap: 21px;
     margin-top: 40px;
@@ -155,9 +155,9 @@
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
     .CheckoutCom {
-        width: 1240px;
-        height: auto;
-        margin: 20px;
+        max-width:366px;
+        height: 300px;
+        margin: 20px 10px;
         padding: 10px;
         gap: 20px;
     }
@@ -168,7 +168,7 @@
     }
 
     .left-info {
-        width: 100%;
+        width: 366px;
         gap: 20px;
         
     }
