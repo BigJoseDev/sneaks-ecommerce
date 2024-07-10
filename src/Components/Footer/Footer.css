@@ -256,12 +256,14 @@
         width: 85px;
         height: 25px;
         gap: 12px;
+        font-size: 13px;
     }
 
     .footer-about li{
         width: 105px;
-        height: 19px;
+        height: 25px;
         gap: 12px;
+        font-size: 13px;
     }
 
     .footer-about{
