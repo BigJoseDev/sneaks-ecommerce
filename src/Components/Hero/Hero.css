@@ -83,7 +83,7 @@
         height:170px ;
         font-family: inter;
         font-weight: 700;
-        font-size: 60px;
+        font-size: 50px;
         line-height: 50.45px;
         letter-spacing: 3px;
         color: #000000;
@@ -113,7 +113,7 @@
         width: 366px;
         height: 86px;
         position: relative;
-        top: 270px;
+        top: 350px;
         left: 0px;
         font: Inter;
         font-weight: 700;
@@ -136,7 +136,7 @@
     
 
     .right-hero img{
-        width: 350px;
+        width: 380px;
         height: 100%;
         position: relative;
         top: -260px;
