@@ -1,0 +1,139 @@
+.details-page{
+    display: flex;
+    width: 1240px;
+    height: 632px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    justify-content: space-between;
+}
+
+.left-page{
+    width: 736px;
+    height: 632px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #F6F0E2;
+    align-items: center;
+}
+
+.left-page img{
+    width: 625px;
+    height: 488px;
+}
+
+.right-page{
+    width: 241px;
+    height: 296px;
+    gap: 32px;
+}
+
+.right-page h1{
+    width: 241px;
+    height: px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #000000;
+
+}
+
+.right-page p{
+    /* width: 241px; */
+    /* height: 54px; */
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18.15px;
+    color: #000000;
+
+}
+
+.cart-btn{
+    width: 139px;
+    height: 86px;
+    gap: 18px;
+}
+
+.add-to-cart-btn button{
+    width: 139px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #FFAE5A;
+    background-color: #FFF9EB;
+    color: #FFAE5A;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+
+/* mobile */
+@media (max-width: 768px) {
+    .details-page{
+    flex-direction: column;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 5px;
+    }
+
+    .left-page{
+        width: 400px;
+        height: 324px;
+        border-radius: 10px;
+        position: relative;
+        top: -40px;
+    }
+
+    .left-page img{
+        width: 366px;
+        height: 324px;
+    }
+
+    .right-page{
+        width: 366px;
+        height: 324px;
+    }
+
+    .right-page h1{
+        width: 366px;
+       height: 50px;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: inter;
+        line-height: 29.05px;
+    }
+
+    .right-page h2{
+        
+        /* height: 54px; */
+        font-size: 20px;
+        line-height: 18.15px;
+        font-family: inter;
+    }
+    .right-page p{
+        width: 366px;
+        height: 54px;
+        font-size: 18px;
+        line-height: 18.15px;
+        font-family: inter;
+    }    
+
+    .add-to-cart-btn button{
+        width: 366px;
+        height:54px;
+        border-radius: 6px;
+        border: 1px solid #FFAE5A;
+        background-color: #FFF9EB;
+        color: #FFAE5A;
+        font-weight: 600;
+        font-size: 26px;
+        cursor: pointer;
+        padding: 15px;
+        position: relative;
+        top: 40px;
+    }
+}

@@ -64,7 +64,7 @@
     .hero{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 366px;
         height: 497px;
         margin-top: 200px;
         margin-left: 0px;
@@ -72,39 +72,49 @@
     }
 
     .left-hero{
-        width: 100%;
+        width: 100px;
         height: 100%;
         top: 0px;
         left: 0px;
     }
 
     .left-hero h1{
-        width: 50%;
-        height: 100%;
-        font-family: Merriweather Sans;
+        width: 390px;
+        height:170px ;
+        font-family: inter;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 60px;
         line-height: 50.45px;
+        letter-spacing: 3px;
         color: #000000;
+        position: relative;
+        top: -140px;
+        left: 20px;
         
     }
 
     .left-hero p{
-        width: 50%;
+        /* width: 300px;
         font-family: Inter;
-        height: 100%;
+        height: 100;
         font-weight: 100;
         font-size: 20px;
         line-height: 24.2px;
         letter-spacing: 1%;
         color: #000000;
+        font-family: inter;
+        position: relative;
+        top: 370px;
+        left: 50px; */
+        display: none;
     }
 
     .left-hero button{
-        width: 100%;
+        width: 366px;
         height: 86px;
-        margin-top: 24px;
-        margin-left: 0px;
+        position: relative;
+        top: 270px;
+        left: 0px;
         font: Inter;
         font-weight: 700;
         font-size: 32px;
@@ -117,12 +127,19 @@
         cursor: pointer;
     }
 
+    .right-hero{
+        width: 366px;
+        height: ;
+        top: 0px;
+        margin-left: 0px;
+    }
     
 
     .right-hero img{
-        width: 50%;
+        width: 350px;
         height: 100%;
-        top: 0px;
-        margin-left: 0px;
+        position: relative;
+        top: -260px;
+        left: 30px;
     }
 }

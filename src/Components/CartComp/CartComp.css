@@ -51,11 +51,14 @@
     display: flex;
     align-items: center;
     gap: 8px;
+
 }
 
 .btn button {
     width: 24px;
     height: 24px;
+    background-color: #FFF9EB;
+    cursor: pointer;
 }
 
 .cart-price {
@@ -164,7 +167,7 @@
     width: 108px;
     height: 33px;
     position: absolute;
-    top: 612px;
+    /* top: 612px; */
     left: 733px;
     border-radius: 4px;
     border: 1px;

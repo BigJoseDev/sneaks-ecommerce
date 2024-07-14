@@ -26,13 +26,16 @@ const Navbar = () => {
 
       <div className="nav-menu">
         <ul>
+      
         <li 
-          >Home
+          onClick={() => setMenu('home')} 
+          style={menu === 'home' ? menuStyle : {}}
+        ><Link to = '/' style={linkStyle}>Home</Link>
         </li>
         <li 
           onClick={() => setMenu('products')} 
           style={menu === 'products' ? menuStyle : {}}
-        ><Link to = '/' style={linkStyle}>Products</Link>
+        ><Link to = '/products' style={linkStyle}>Products</Link>
         </li>
         <li 
           >About
