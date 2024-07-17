@@ -11,7 +11,7 @@ const ProductList = () => {
 
   // handle fetch data from api
   const APP_ID = "LOIFSLLA9YGW0AZ"; // Replace with your actual App ID
-  const API_KEY = "314416608cd4448f9f2d10df2ec7d6c320240712182938368472"; // Replace with your actual API Key
+  const API_KEY =  "314416608cd4448f9f2d10df2ec7d6c320240712182938368472"; // Replace with your actual API Key
   const API_URL = "/api";
 
   const fetchData = async (page = 1, limit = 10) => {
